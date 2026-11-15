@@ -741,3 +741,20 @@ window.SIZEUP_PRODUCTS.push({
   "mercari": "",
   "sold": false
 });
+
+// Mercari listing and sold status confirmed by owner, 2026-11-15.
+Object.assign(window.SIZEUP_PRODUCTS.find(p=>p.id==='su-0001'),{mercari:'https://jp.mercari.com/item/m40145029807'});
+Object.assign(window.SIZEUP_PRODUCTS.find(p=>p.id==='su-0002'),{mercari:'https://jp.mercari.com/item/m94581537543'});
+Object.assign(window.SIZEUP_PRODUCTS.find(p=>p.id==='su-0003'),{mercari:'https://jp.mercari.com/item/m30332835465'});
+Object.assign(window.SIZEUP_PRODUCTS.find(p=>p.id==='su-0004'),{mercari:'https://jp.mercari.com/item/m48690016141'});
+Object.assign(window.SIZEUP_PRODUCTS.find(p=>p.id==='su-0005'),{mercari:'https://jp.mercari.com/item/m87464806726'});
+Object.assign(window.SIZEUP_PRODUCTS.find(p=>p.id==='su-0006'),{mercari:'https://jp.mercari.com/item/m16407804405'});
+Object.assign(window.SIZEUP_PRODUCTS.find(p=>p.id==='su-0007'),{mercari:'https://jp.mercari.com/item/m13791126905'});
+Object.assign(window.SIZEUP_PRODUCTS.find(p=>p.id==='su-0008'),{mercari:'https://jp.mercari.com/item/m63601058687'});
+Object.assign(window.SIZEUP_PRODUCTS.find(p=>p.id==='su-0009'),{mercari:'https://jp.mercari.com/item/m47902570060'});
+Object.assign(window.SIZEUP_PRODUCTS.find(p=>p.id==='su-0011'),{mercari:'https://jp.mercari.com/item/m42361408447'});
+Object.assign(window.SIZEUP_PRODUCTS.find(p=>p.id==='su-0012'),{mercari:'https://jp.mercari.com/item/m96728648105'});
+Object.assign(window.SIZEUP_PRODUCTS.find(p=>p.id==='su-0014'),{mercari:'https://jp.mercari.com/item/m33748853479'});
+Object.assign(window.SIZEUP_PRODUCTS.find(p=>p.id==='su-0017'),{mercari:'https://jp.mercari.com/item/m21580719349'});
+Object.assign(window.SIZEUP_PRODUCTS.find(p=>p.id==='su-0018'),{mercari:'https://jp.mercari.com/item/m28860851127'});
+["su-0010","su-0013","su-0015"].forEach(id=>{window.SIZEUP_PRODUCTS.find(p=>p.id===id).sold=true;});
