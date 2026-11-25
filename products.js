@@ -757,4 +757,4 @@ Object.assign(window.SIZEUP_PRODUCTS.find(p=>p.id==='su-0012'),{mercari:'https:/
 Object.assign(window.SIZEUP_PRODUCTS.find(p=>p.id==='su-0014'),{mercari:'https://jp.mercari.com/item/m33748853479'});
 Object.assign(window.SIZEUP_PRODUCTS.find(p=>p.id==='su-0017'),{mercari:'https://jp.mercari.com/item/m21580719349'});
 Object.assign(window.SIZEUP_PRODUCTS.find(p=>p.id==='su-0018'),{mercari:'https://jp.mercari.com/item/m28860851127'});
-["su-0010","su-0013","su-0015"].forEach(id=>{window.SIZEUP_PRODUCTS.find(p=>p.id===id).sold=true;});
+["su-0004","su-0010","su-0013","su-0015"].forEach(id=>{window.SIZEUP_PRODUCTS.find(p=>p.id===id).sold=true;});
